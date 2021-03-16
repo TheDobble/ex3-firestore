@@ -9,7 +9,7 @@ import Appli from './composants/Appli';
 const nomDepotGitHub = "ex3-firestore";
 
 // Ne rien modifier aux lignes suivantes 
-const baseName = (window.location.href.search(/github\.io/) !== -1) ? `/${nomDepotGitHub}` : "";
+const baseName = (window.location.href.search(/github\.io/i) !== -1) ? `/${nomDepotGitHub}` : "";
 
 ReactDOM.render(
   <React.StrictMode>
